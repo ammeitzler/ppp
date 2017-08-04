@@ -36,8 +36,11 @@ function drawData(data) {
 	for(i = 0; i< json_file.punct.length%random_num; i++) {
 		text(json_file.punct[i],canvas_width%random(width),random(height)-30)
 	}
-	line(random_num*50, 0, 100, 0);
+	//line(random_num*50, 0, 100, 0);
+	line(random_num*50, 5, random_num*50, 200)
+	line(50, random_num*20, random_num*10, random_num*20)
 }
+
 
 
 
